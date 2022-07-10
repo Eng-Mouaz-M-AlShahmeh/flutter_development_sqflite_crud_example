@@ -1,0 +1,27 @@
+# Developed by Eng Mouaz M. AlShahmeh
+name: sqfentity_example
+description: Developed by Eng Mouaz M. AlShahmeh
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.3
+  sqfentity: ^2.2.0+6 # add this line with latest version
+  sqfentity_gen: ^2.2.0+12 # add this line with latest version
+  http: ^0.13.4 # add this line with latest version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: 2.1.11 # add this line with latest version
+  build_verify: 3.0.0 # add this line with latest version
+
+flutter:
+  uses-material-design: true
